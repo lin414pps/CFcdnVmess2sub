@@ -7,6 +7,10 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 let addresses = [
 	'icook.tw:2053#官方优选域名',
 	'cloudflare.cfgo.cc#优选官方线路',
+	'www.visa.com.sg:2096#官方优选域名',
+	'www.wto.org:443#官方优选域名',
+	'www.who.int:8443#官方优选域名',
+	'aliyu.gitgoogle.com:2053#天诚优选域名',
 ];
 
 // 设置优选地址api接口
@@ -17,9 +21,9 @@ let addressesapi = [
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
-	'www.visa.com.sg#官方优选域名',
-	'www.wto.org:8080#官方优选域名',
-	'www.who.int:8880#官方优选域名',
+	//'www.visa.com.sg#官方优选域名',
+	//'www.wto.org:8080#官方优选域名',
+	//'www.who.int:8880#官方优选域名',
 ];
 
 // 设置优选noTLS地址api接口
@@ -38,7 +42,7 @@ let noTLS = 'true'; // false
 let BotToken =''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 let ChatID =''; //可以为空，或者@userinfobot中获取，/start
 let vmessLinks = [ //本地CFcdnVmess节点池
-	//'vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIk5MIiwNCiAgImFkZCI6ICJjZi4wOTAyMjcueHl6IiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogIjA2MTk1YjViLTM4MTUtNGEwNy05NmY3LTQ3ZWVmYmIxYjE0MyIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAidXJueGV3enZoLnNpdGUiLA0KICAicGF0aCI6ICIva3dobXZ3cyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJ1cm54ZXd6dmguc2l0ZSIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9',
+	vmess://bm9uZTpkZTA0YWRkOS01YzY4LThiYWItODcwYy0wOGNkNTMyMGRmMDdAeWFuZ3poaWdhby1odWdnaW5nLmhmLnNwYWNlOjQ0Mw?remarks=HF-clone-clone&obfsParam=yangzhigao-hugging.hf.space&path=/vmess&obfs=websocket&tls=1&peer=yangzhigao-hugging.hf.space&alterId=0',
 ];
 let vmessLinksURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/vmesslinks';//CFcdnVmess节点池URL
 let proxyhosts = [//本地代理域名池
